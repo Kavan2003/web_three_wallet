@@ -101,22 +101,22 @@ class _LoginState extends State<Login> {
                                         ],
                                       ),
                                     ),
-                                    TextButton(
-                                      onPressed: () async {},
-                                      child: Row(
-                                        children: [
-                                          Image.asset(
-                                            'img/etherum.png',
-                                            width: 30,
-                                            height: 30,
-                                          ),
-                                          const Text('Add Etherum Wallet'),
-                                          loading
-                                              ? const CircularProgressIndicator()
-                                              : const SizedBox(),
-                                        ],
-                                      ),
-                                    ),
+                                    // TextButton(
+                                    //   onPressed: () async {},
+                                    //   child: Row(
+                                    //     children: [
+                                    //       Image.asset(
+                                    //         'img/etherum.png',
+                                    //         width: 30,
+                                    //         height: 30,
+                                    //       ),
+                                    //       const Text('Add Etherum Wallet'),
+                                    //       loading
+                                    //           ? const CircularProgressIndicator()
+                                    //           : const SizedBox(),
+                                    //     ],
+                                    //   ),
+                                    // ),
                                   ],
                                 ),
                                 loading
